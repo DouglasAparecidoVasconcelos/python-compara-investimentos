@@ -9,7 +9,8 @@ class Poupanca(Aplicacao):
         self.nome = input("Digite seu nome: ")
         self.capital = float(input("Digite a quantia em reais a ser investida: "))
         self.tempo = int(input("Digite a quantidade de meses que seu dinheiro ficará investido"))
-        self.taxaJuros = float(input("Digite a taxa de juros anual: ")/12)
+        self.taxaJuros = (float(input("Digite a taxa de juros anual: "))/100)/12
+        print(self.taxaJuros)
 
     def geraRentabilidadePoupanca(self):
         self.juros = self.capital * self.taxaJuros * self.tempo

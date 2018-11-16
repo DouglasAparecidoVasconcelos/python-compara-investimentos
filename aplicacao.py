@@ -11,7 +11,7 @@ class Aplicacao:
         self.nome = input("Digite seu nome: ")
         self.capital = float(input("Digite a quantia em reais a ser investida: "))
         self.tempo = int(input("Digite a quantidade de meses que seu dinheiro ficará investido"))
-        self.taxaJuros = float(input("Digite a taxa de juros anual: "))
+        self.taxaJuros = (float(input("Digite a taxa de juros anual: "))/100)/12
 
     def saida(self):
         print()
