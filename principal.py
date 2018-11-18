@@ -5,5 +5,5 @@ from lci import Lci
 pessoa1 = Poupanca(0,0,0,0,0,0)
 
 pessoa1.entrada()
-pessoa1.geraRentabilidadePoupanca()
+pessoa1.calculaJurosPoupanca()
 pessoa1.saida()
