@@ -8,7 +8,7 @@ class Poupanca(Aplicacao):
     def entrada(self):
         self.nome = input("Digite seu nome: ")
         self.capital = float(input("Digite a quantia em reais a ser investida: "))
-        self.tempo = int(input("Digite a quantidade de meses que seu dinheiro ficará investido"))
+        self.tempo = int(input("Digite a quantidade de meses que seu dinheiro ficará investido: "))
         self.taxaJuros = (float(input("Digite a taxa de juros anual: "))/100)/12
         # self.taxaJuros = 0.0827
 

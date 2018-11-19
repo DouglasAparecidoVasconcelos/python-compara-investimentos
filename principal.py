@@ -2,7 +2,14 @@ from poupanca import Poupanca
 from cdi import Cdi
 from lci import Lci
 
-pessoa1 = Poupanca(0,0,0,0,0,0)
+nome = ""
+capital = 0.0
+tempo = 0
+taxaJuros = 0.0
+montante = 0.0
+juros = 0.0
+
+pessoa1 = Poupanca(nome, capital, tempo, taxaJuros, montante, juros)
 pessoa2 = Cdi(0,0,0,0,0,0,0)
 
 pessoa1.entrada()

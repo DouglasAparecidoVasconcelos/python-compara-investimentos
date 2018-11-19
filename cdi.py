@@ -2,13 +2,13 @@ from aplicacao import Aplicacao
 
 
 class Cdi(Aplicacao):
-    def __init__(self, capital, tempo, taxaJuros, montante, juros, ir):
+    def __init__(self, nome, capital, tempo, taxaJuros, montante, juros, ir):
         self.ir = ir
-        super().__init__(capital, tempo, taxaJuros, montante, juros)
+        super().__init__(nome, capital, tempo, taxaJuros, montante, juros)
 
     def entrada(self):
         self.capital = float(input("Digite a quantia em reais a ser investida: "))
-        self.tempo = int(input("Digite a quantidade de meses que seu dinheiro ficará investido"))
+        self.tempo = int(input("Digite a quantidade de meses que seu dinheiro ficará investido: "))
         self.taxaJuros = (float(input("Digite a taxa de juros anual: "))/100)/12
         # self.taxaJuros = 0.1372
 

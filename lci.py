@@ -7,7 +7,7 @@ class Lci(Aplicacao):
 
     def entrada(self):
         self.capital = float(input("Digite a quantia em reais a ser investida: "))
-        self.tempo = int(input("Digite a quantidade de meses que seu dinheiro ficará investido"))
+        self.tempo = int(input("Digite a quantidade de meses que seu dinheiro ficará investido: "))
 
         while self.tempo < 12:
             self.tempo = input("Este tipo de aplicação só permite um tempo maior ou igual a 12 meses\nDigite novamente o tempo que deseja aplicar seu dinheiro: ")

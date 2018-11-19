@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5b688c8-7e8f-44ad-908c-302e5ba1d92e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Douglas_Vasconcelos.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/Douglas_Vasconcelos.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cdi.py" beforeDir="false" afterPath="$PROJECT_DIR$/cdi.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lci.py" beforeDir="false" afterPath="$PROJECT_DIR$/lci.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/poupanca.py" beforeDir="false" afterPath="$PROJECT_DIR$/poupanca.py" afterDir="false" />
@@ -18,14 +16,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="principal.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="principal.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/principal.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="170">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="codecs.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/codecs.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="324" selection-start-line="324" selection-end-line="324" />
             </state>
           </provider>
         </entry>
@@ -42,8 +49,8 @@
       <file leaf-file-name="poupanca.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/poupanca.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="22" column="60" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="22" selection-end-column="60" />
+            <state relative-caret-position="146">
+              <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -51,17 +58,17 @@
       <file leaf-file-name="cdi.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cdi.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="33" column="33" lean-forward="true" selection-start-line="33" selection-start-column="33" selection-end-line="35" selection-end-column="60" />
+            <state relative-caret-position="-136">
+              <caret line="10" column="96" selection-start-line="10" selection-start-column="96" selection-end-line="10" selection-end-column="96" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lci.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="lci.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lci.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="22" column="47" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
+            <state relative-caret-position="153">
+              <caret line="9" column="96" selection-start-line="9" selection-start-column="96" selection-end-line="9" selection-end-column="96" />
             </state>
           </provider>
         </entry>
@@ -82,11 +89,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/aplicacao.py" />
-        <option value="$PROJECT_DIR$/principal.py" />
         <option value="$PROJECT_DIR$/setup_compara.py" />
         <option value="$PROJECT_DIR$/poupanca.py" />
         <option value="$PROJECT_DIR$/cdi.py" />
         <option value="$PROJECT_DIR$/lci.py" />
+        <option value="$PROJECT_DIR$/principal.py" />
       </list>
     </option>
   </component>
@@ -150,6 +157,24 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="cdi" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Comparacao de investimentos" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cdi.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="poupanca" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Comparacao de investimentos" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -190,10 +215,12 @@
       <item itemvalue="Python.aplicacao" />
       <item itemvalue="Python.poupanca" />
       <item itemvalue="Python.principal" />
+      <item itemvalue="Python.cdi" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.principal" />
+        <item itemvalue="Python.cdi" />
         <item itemvalue="Python.poupanca" />
         <item itemvalue="Python.aplicacao" />
       </list>
@@ -207,10 +234,10 @@
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.35451505" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.35451505" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32919255" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32943144" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39966556" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -263,7 +290,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="7" />
+      <option name="time" value="9" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -315,13 +342,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/principal.py">
+    <entry file="file://$PROJECT_DIR$/cdi.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-136">
+          <caret line="10" column="96" selection-start-line="10" selection-start-column="96" selection-end-line="10" selection-end-column="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lci.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="96" selection-start-line="9" selection-start-column="96" selection-end-line="9" selection-end-column="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/poupanca.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -332,24 +370,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cdi.py">
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/codecs.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="33" column="33" lean-forward="true" selection-start-line="33" selection-start-column="33" selection-end-line="35" selection-end-column="60" />
+        <state relative-caret-position="171">
+          <caret line="324" selection-start-line="324" selection-end-line="324" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/poupanca.py">
+    <entry file="file://$PROJECT_DIR$/principal.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="22" column="60" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="22" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lci.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="22" column="47" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
