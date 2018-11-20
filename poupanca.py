@@ -19,5 +19,5 @@ class Poupanca(Aplicacao):
     def saida(self):
         print("Se investido seu dinheiro na POUPANÇA, seus resultados financeiros serão:")
         print("Dinheiro investido: ", self.capital)
-        print("Seu dinheiro rendeu: ", self.juros)
-        print("Saldo total após aplicação: ", self.montante)
+        print("Seu dinheiro rendeu: %.2f" % self.juros)
+        print("Saldo total após aplicação: %.2f" % self.montante)
