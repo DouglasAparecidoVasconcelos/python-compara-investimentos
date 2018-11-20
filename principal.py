@@ -8,7 +8,6 @@ juros = 0.0
 ir = 0.0
 opcao = 100
 
-
 while opcao != 0:
     try:
         opcao = int(input("Digite:\n1-para simulação\n2-para investimento\n0-para SAIR\n"))

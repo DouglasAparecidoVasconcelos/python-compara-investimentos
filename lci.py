@@ -25,7 +25,8 @@ class Lci(Aplicacao):
             print("\nNo periodo informado não há rendimento devido a liquidez.")
 
     def saida(self):
-        print("\nSe investido seu dinheiro no LCI, seus resultados financeiros serão:")
+        print("\nCaro senhor ", self.nome)
+        print("Se investido seu dinheiro no LCI, seus resultados financeiros serão:")
         print("Dinheiro investido: ", self.capital)
         print("Seu dinheiro rendeu: %.2f" % self.juros)
         print("Saldo total após aplicação: %.2f" % self.montante)

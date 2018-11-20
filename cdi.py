@@ -29,7 +29,8 @@ class Cdi(Aplicacao):
         self.montante = self.capital - self.ir + self.juros
 
     def saida(self):
-        print("\nSe investido seu dinheiro no CDI, seus resultados financeiros serão:")
+        print("\nCaro senhor ", self.nome)
+        print("Se investido seu dinheiro no CDI, seus resultados financeiros serão:")
         print("Dinheiro investido: ", self.capital)
         print("Seu dinheiro rendeu: %.2f" % self.juros)
         print("Imposto de renda sobre seus lucros são de: %.2f" % self.ir)
