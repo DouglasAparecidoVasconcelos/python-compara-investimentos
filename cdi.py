@@ -10,7 +10,7 @@ class Cdi(Aplicacao):
         self.capital = float(input("Digite a quantia em reais a ser investida: "))
         self.tempo = int(input("Digite a quantidade de meses que seu dinheiro ficará investido: "))
         self.taxaJuros = (float(input("Digite a taxa de juros anual: "))/100)/12
-        # self.taxaJuros = 0.1372
+        # self.taxaJuros = 0.1372 13,72
 
     def calculaJurosCdi(self):
         self.juros = self.capital * self.taxaJuros * self.tempo
