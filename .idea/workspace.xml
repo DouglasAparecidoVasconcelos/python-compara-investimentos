@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5b688c8-7e8f-44ad-908c-302e5ba1d92e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/aplicacao.py" beforeDir="false" afterPath="$PROJECT_DIR$/aplicacao.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cdi.py" beforeDir="false" afterPath="$PROJECT_DIR$/cdi.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lci.py" beforeDir="false" afterPath="$PROJECT_DIR$/lci.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/poupanca.py" beforeDir="false" afterPath="$PROJECT_DIR$/poupanca.py" afterDir="false" />
@@ -40,8 +39,8 @@
       <file leaf-file-name="principal.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/principal.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="33" column="13" lean-forward="true" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+            <state relative-caret-position="187">
+              <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -61,8 +60,8 @@
       <file leaf-file-name="poupanca.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/poupanca.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="47" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
+            <state relative-caret-position="263">
+              <caret line="22" column="67" selection-start-line="22" selection-start-column="67" selection-end-line="22" selection-end-column="67" />
             </state>
           </provider>
         </entry>
@@ -70,8 +69,8 @@
       <file leaf-file-name="cdi.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cdi.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-196">
-              <caret line="9" column="47" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
+            <state relative-caret-position="263">
+              <caret line="36" column="65" selection-start-line="36" selection-start-column="65" selection-end-line="36" selection-end-column="65" />
             </state>
           </provider>
         </entry>
@@ -79,8 +78,8 @@
       <file leaf-file-name="lci.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lci.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="79" selection-start-line="13" selection-start-column="79" selection-end-line="13" selection-end-column="79" />
+            <state relative-caret-position="263">
+              <caret line="31" column="65" selection-start-line="31" selection-start-column="65" selection-end-line="31" selection-end-column="65" />
             </state>
           </provider>
         </entry>
@@ -101,11 +100,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/setup_compara.py" />
-        <option value="$PROJECT_DIR$/principal.py" />
+        <option value="$PROJECT_DIR$/aplicacao.py" />
         <option value="$PROJECT_DIR$/poupanca.py" />
         <option value="$PROJECT_DIR$/cdi.py" />
         <option value="$PROJECT_DIR$/lci.py" />
-        <option value="$PROJECT_DIR$/aplicacao.py" />
+        <option value="$PROJECT_DIR$/principal.py" />
       </list>
     </option>
   </component>
@@ -266,7 +265,7 @@
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.24962743" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30936456" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.30936456" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32919255" />
       <window_info anchor="bottom" id="Python Console" order="8" weight="0.32943144" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39966556" />
@@ -377,27 +376,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/setup_compara.py" />
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/codecs.py" />
-    <entry file="file://$PROJECT_DIR$/cdi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-196">
-          <caret line="9" column="47" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lci.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="79" selection-start-line="13" selection-start-column="79" selection-end-line="13" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/poupanca.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="47" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/aplicacao.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -405,10 +383,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/poupanca.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="22" column="67" selection-start-line="22" selection-start-column="67" selection-end-line="22" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cdi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="36" column="65" selection-start-line="36" selection-start-column="65" selection-end-line="36" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lci.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="31" column="65" selection-start-line="31" selection-start-column="65" selection-end-line="31" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/principal.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="13" lean-forward="true" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+        <state relative-caret-position="187">
+          <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
