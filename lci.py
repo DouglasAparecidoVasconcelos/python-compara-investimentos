@@ -6,15 +6,14 @@ class Lci(Aplicacao):
         super().__init__(nome, capital, tempo, taxaJuros, montante, juros)
 
     def entrada(self):
-        self.nome = input("Digite seu nome: ")
-        self.capital = float(input("Digite a quantia em reais a ser investida: "))
+        self.nome = input("\nDigite seu nome: ")
+        self.capital = float(input("Digite a quantia em reais a ser investida:\n"))
         self.tempo = int(input("Digite a quantidade de meses que seu dinheiro ficará investido: "))
 
         while self.tempo < 12:
-            self.tempo = input("Este tipo de aplicação só permite um tempo maior ou igual a 12 meses\nDigite novamente o tempo que deseja aplicar seu dinheiro: ")
+            self.tempo = int(input("Este tipo de aplicação só permite um tempo maior ou igual a 12 meses\nDigite novamente o tempo que deseja aplicar seu dinheiro: "))
 
         self.taxaJuros = (float(input("Digite a taxa de juros anual: "))/100)/12
-        # self.taxaJuros = 0.1414 14,14
 
     def calculaJurosLci(self):
         if self.tempo >= 12:
@@ -23,10 +22,10 @@ class Lci(Aplicacao):
         else:
             self.montante = self.capital
             self.juros = 0.0
-            print("No periodo informado não há rendimento devido a liquidez.")
+            print("\nNo periodo informado não há rendimento devido a liquidez.")
 
     def saida(self):
-        print("Se investido seu dinheiro no LCI, seus resultados financeiros serão:")
+        print("\nSe investido seu dinheiro no LCI, seus resultados financeiros serão:")
         print("Dinheiro investido: ", self.capital)
         print("Seu dinheiro rendeu: %.2f" % self.juros)
         print("Saldo total após aplicação: %.2f" % self.montante)

@@ -7,11 +7,10 @@ class Cdi(Aplicacao):
         super().__init__(nome, capital, tempo, taxaJuros, montante, juros)
 
     def entrada(self):
-        self.nome = input("Digite seu nome: ")
+        self.nome = input("\nDigite seu nome:\n")
         self.capital = float(input("Digite a quantia em reais a ser investida: "))
         self.tempo = int(input("Digite a quantidade de meses que seu dinheiro ficará investido: "))
         self.taxaJuros = (float(input("Digite a taxa de juros anual: "))/100)/12
-        # self.taxaJuros = 0.1372 13,72
 
     def calculaJurosCdi(self):
         self.juros = self.capital * self.taxaJuros * self.tempo
@@ -30,7 +29,7 @@ class Cdi(Aplicacao):
         self.montante = self.capital - self.ir + self.juros
 
     def saida(self):
-        print("Se investido seu dinheiro no CDI, seus resultados financeiros serão:")
+        print("\nSe investido seu dinheiro no CDI, seus resultados financeiros serão:")
         print("Dinheiro investido: ", self.capital)
         print("Seu dinheiro rendeu: %.2f" % self.juros)
         print("Imposto de renda sobre seus lucros são de: %.2f" % self.ir)

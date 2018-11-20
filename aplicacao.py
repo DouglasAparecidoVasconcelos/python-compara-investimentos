@@ -15,5 +15,3 @@ class Aplicacao:
 
     def saida(self):
         print()
-
-
